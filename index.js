@@ -44,12 +44,48 @@ const obj = { name, ...person };
 */
 
 // 1. weak map and map
+//pgm
+
 // 2. object literal and template literal
+//pgm
+
 // 3. what kind of data binding we use in react
+//In short, Angular uses two-way (bi-directional) - in angular both UI and state changes.
+//data binding while React uses one-way (unidirectional) data binding computations - based on state change
+// UI is re rendered.
+
 // 4. how to create custom hooks in react
+//pgm
+
 // 5. deep copy and shallow copy.
+//pgm
+
 // 6. ES6
+
 // 7. immutable js
+
 // 8. prototype in js
+// Prototypes are the mechanism by which JavaScript objects inherit features from one another..
+// Every object in JavaScript has a built-in property, which is called its prototype.
+// The prototype is itself an object, so the prototype will have its own prototype,
+//making what's called a prototype chain. The chain ends when we reach a prototype
+//that has null for its own prototype.
+
+/*
+When you try to access a property of an object: if the property can't be found in the object itself, 
+the prototype is searched for the property.
+If the property still can't be found, then the prototype's prototype is searched, and so on
+ until either the property is found, or the end of the chain is reached, in which case undefined is returned.
+
+This is called "shadowing" the property. - system will perform check on the object first
+and then only will look into the prototype, so if define same property, the original 
+property will be shdowed
+ */
+
+// 9. mutable vs immutable
+// all reference types, arrays, objects are mutable
+// all primitive types are immutable
+// for immutable only values can be reassigend, new property cannot be added
+// modification of the assignment will change the original in reference
 
 //chrome://flags/ -> search for dark mode and enable
